@@ -1,3 +1,6 @@
+**Disclaimer**:
+This project is for personal use and not for commercial. Also, due to gray area of job scraping on job sites(e.g. linkedin, seek and etc.) This project will not be hosted online for public usage. 
+A demo video and a way to deploy locally may provided in the later stage.
 
 # System Design for Job Ad Collection and Resume Matching Service
 

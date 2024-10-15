@@ -2,6 +2,11 @@
 This project is for personal use and not for commercial. Also, due to gray area of job scraping on job sites(e.g. linkedin, seek and etc.) This project will not be hosted online for public usage. 
 A demo video and a way to deploy locally may provided in the later stage.
 
+# Table of content
+- System Design
+    - [High level view](https://github.com/jimmyzhangyl/JobApplierService.git)
+    - [Tech Stacks](https://github.com/jimmyzhangyl/JobApplierService.git)
+
 # System Design for Job Ad Collection and Resume Matching Service
 
 ## Overview
@@ -279,9 +284,16 @@ graph TD
 5.  **Risk Assessment**: Identify potential risks and develop mitigation strategies.
     
 
-## Conclusion
 
-Building this service is an ambitious project that, with careful planning and iterative development, can provide significant value to users seeking job opportunities. Focus on creating a robust, scalable, and user-friendly platform that adheres to legal and ethical standards.
-Team Collaboration: Assign roles and set up regular progress meetings.
+# Tech Stack
 
-Technology Evaluation: Experiment with different tools to find the best fit.
+## Language: Python
+Simple and quick development. And also better support to intergrate with LLM. 
+## Framework: FastAPI
+FastAPI endpoint -> pydantic -> database paradigm
+It has advantage of auto generated API documentation
+## DB:
+## Testing Framework: pytest
+## CI/CD: Github action
+## Scraping Tool: Selenium with ChromeDriver
+## Coding Style: Pre-Commit Hooks + Black + Flake8

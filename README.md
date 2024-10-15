@@ -4,8 +4,8 @@ A demo video and a way to deploy locally may provided in the later stage.
 
 # Table of content
 - System Design
-    - [High level view](https://github.com/jimmyzhangyl/JobApplierService.git)
-    - [Tech Stacks](https://github.com/jimmyzhangyl/JobApplierService.git)
+    - [High level view](https://github.com/jimmyzhangyl/?tab=readme-ov-file#system-design-for-job-ad-collection-and-resume-matching-service)
+    - [Tech Stacks](https://github.com/jimmyzhangyl/?tab=readme-ov-file#tech-stack)
 
 # System Design for Job Ad Collection and Resume Matching Service
 

@@ -6,6 +6,8 @@ A demo video and a way to deploy locally may provided in the later stage.
 - System Design
     - [High level view](https://github.com/jimmyzhangyl/JobApplierService/blob/main/README.md#system-design-for-job-ad-collection-and-resume-matching-service)
     - [Tech Stacks](https://github.com/jimmyzhangyl/JobApplierService/blob/main/README.md#tech-stack)
+- Setting up
+    - [Install project by clone]()
 
 # System Design for Job Ad Collection and Resume Matching Service
 
@@ -297,3 +299,18 @@ It has advantage of auto generated API documentation
 ## CI/CD: Github action
 ## Scraping Tool: Selenium with ChromeDriver
 ## Coding Style: Pre-Commit Hooks + Black + Flake8
+
+
+# Installation 
+
+## Clone the project
+1. **Install Python venv** 
+```bash
+    python3 -m venv venv
+```
+
+2. **Activate virtual environment**
+```bash
+    source venv/bin/activate
+```
+Suggested extension in VsCode: Python Environment Manager (allow you one click to activate venv)
